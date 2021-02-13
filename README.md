@@ -1,5 +1,5 @@
 # Azure Policy Samples
-
+Misael Hidalgo
 This repository contains built-in samples of Azure Policies that can be used as reference for creating and assigning policies to your subscriptions and resource groups. For easy search of all built-in  with descriptions, see [Policy samples](https://docs.microsoft.com/azure/governance/policy/samples/) on docs.microsoft.com.
 
 For custom policy samples, check out our Community repo! (https://github.com/Azure/Community-Policy)
@@ -251,12 +251,12 @@ There are some resource types that even though are indexed, do not support Taggi
 
 To add one to the list please add it in this UserVoice Item: [here](https://feedback.azure.com/forums/915958-azure-governance/suggestions/34052803-azure-policy-indexed-mode-policies-pick-up-resou)
 
-### Alias changes  
+###   
 
 May 2020: Microsoft.DocumentDB/databaseAccounts/ipRangeFilter updated from a string property to an array.  Please re-author your custom definitions to support the property as an array.  
 July 2020: The alias Microsoft.Sql/servers/securityAlertPolicies/emailAddresses[] and related policies were deprecated. 
 
-### Tag Contributor Role
+### Misael hidalgo
 
 Current limitation causes errors using the Tag Contributor role with Tag related policies.  We are aware of this issue and are working to resolve this. (ETA: End of calendar year). If assigning Tag Contributor role to managed identities handling remediation tasks on "Modify" effect policies, please assign Contributor role to the managed identity.
 
